@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import styled, { keyframes } from "styled-components";
+import softLavenderTheme from "./utils/colors";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+export const AppContainer = styled.div`
+  text-align: center;
+`;
 
-export default App;
+export const AppLogo = styled.img`
+  height: 40vmin;
+  pointer-events: none;
+
+  @media (prefers-reduced-motion: no-preference) {
+    animation: ${(props) => (props.spin ? AppLogoSpin : "none")} infinite 20s linear;
+  }
+`;
+
+export const AppLogoSpin = keyframes`
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+`;
