@@ -24,7 +24,6 @@ export const Reminder = styled.div`
     font-size: 1rem;
     font-style: italic;
     color: ${softLavenderTheme.shade};
-    margin-bottom: 1rem;
 `;
 
 export const FieldLabel = styled.div`
