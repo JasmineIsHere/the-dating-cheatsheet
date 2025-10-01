@@ -1,10 +1,10 @@
 # The Dating Cheatsheet
 
-Welcome to **The Dating Cheatsheet** – the ultimate tea-spilling platform for relationships. 🚨 Got a cheating ex? Wanna make sure your next boo isn’t hiding a shady past? This site's got you covered. 
+Welcome to **The Dating Cheatsheet** – the ultimate tea-spilling platform for relationships. 🚨 Got a cheating ex? Wanna make sure the person you are currently chatting with isn’t hiding a shady past? This site's got you covered. 
 
 Here, you can share and check out stories about people who’ve been caught cheating. The goal? To keep it real, promote honesty, and help everyone dodge unnecessary heartbreak. 💔✨
 
-**Disclaimer:** Keep it 100% truthful and respectful. This isn’t a place for drama, harassment, or fake accusations. Play nice, or you’re out. 🚫
+**Disclaimer:** Keep it 100% truthful and respectful. This isn’t a place for drama, harassment, or fake accusations. 
 
 <hr></hr>
 </br>
