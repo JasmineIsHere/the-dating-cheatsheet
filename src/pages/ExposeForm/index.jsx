@@ -5,8 +5,8 @@ const ExposeForm = () => {
   return (
     <ExposeFormContainer>
       <FormTitle>Name and Shame</FormTitle>
-      <Reminder>Friendly Reminder: They screwed up but you are way classier than they ever will be.
-        <br/>No need to lower ourselves to the same level as garbage.</Reminder>
+      <Reminder>Friendly Reminder: They screwed up but you are way classier than they ever will be
+        <br/>No need to lower ourselves to the same level as garbage 💅</Reminder>
       <ExposeFormContainer>
         <FieldLabel>What do you call that trash?</FieldLabel>
         <TextAreaInput rows={1} placeholder="AKA what do normal people know them as?" />
