@@ -1,6 +1,10 @@
 import React from 'react'
-import { AppLogo, GettingStartedButton, HomeHeader, MainHeaderText, Paragraph, SubHeaderText } from './styles'
+import { GettingStartedButton, HomeHeader, MainHeaderText, Paragraph, SubHeaderText } from './styles'
 import { ItalicsText } from '../../components/Common/styles'
+
+const scrollDown = () => {
+    window.scrollBy({ top: window.innerHeight, behavior: 'smooth' });
+}
 
 const Home = () => {
     return (
@@ -16,7 +20,7 @@ const Home = () => {
                 <Paragraph>
                     Bestie, just caught your partner cheating? Come on, spill the 🍵 and expose that clown for the liar they are! 
                 </Paragraph>
-                <GettingStartedButton>Start the exposé ✨</GettingStartedButton>
+                <GettingStartedButton onClick={scrollDown}>Start the exposé ✨</GettingStartedButton>
             </HomeHeader>
         </>
     )

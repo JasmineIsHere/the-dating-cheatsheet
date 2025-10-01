@@ -1,5 +1,4 @@
 import styled, { keyframes } from "styled-components";
-import softLavenderTheme from "./utils/colors";
 
 export const AppContainer = styled.div`
   text-align: center;
