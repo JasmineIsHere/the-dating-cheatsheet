@@ -40,3 +40,21 @@ export const Blink = keyframes`
   from, to { border-color: transparent }
   50% { border-color: black; }
 `;
+
+export const MainHeaderText = styled.div`
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+`;
+
+export const SubHeaderText = styled.div`
+  font-size: 2rem;
+  font-weight: semi-bold;
+  margin-bottom: 0.75rem;
+`;
+
+export const Paragraph = styled.p`
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+`;

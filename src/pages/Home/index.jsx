@@ -1,6 +1,6 @@
 import React from 'react'
-import { GettingStartedButton, HomeHeader, MainHeaderText, Paragraph, SubHeaderText } from './styles'
-import { ItalicsText } from '../../components/Common/styles'
+import { GettingStartedButton, HomeHeaderContainer } from './styles'
+import { ItalicsText, MainHeaderText, Paragraph, SubHeaderText } from '../../components/Common/styles'
 
 const scrollDown = () => {
     window.scrollBy({ top: window.innerHeight, behavior: 'smooth' });
@@ -9,7 +9,7 @@ const scrollDown = () => {
 const Home = () => {
     return (
         <>
-            <HomeHeader>
+            <HomeHeaderContainer>
                 <SubHeaderText>Welcome to</SubHeaderText>
                 <MainHeaderText>The Dating Cheatsheet</MainHeaderText>
                 <SubHeaderText>
@@ -18,10 +18,10 @@ const Home = () => {
                     </ItalicsText>
                 </SubHeaderText>
                 <Paragraph>
-                    Bestie, just caught your partner cheating? Come on, spill the 🍵 and expose that clown for the liar they are! 
+                    Bestie, just caught your partner cheating? Come on, spill the 🍵 and expose that clown for the snake they are! 
                 </Paragraph>
                 <GettingStartedButton onClick={scrollDown}>Start the exposé ✨</GettingStartedButton>
-            </HomeHeader>
+            </HomeHeaderContainer>
         </>
     )
 }

@@ -5,13 +5,13 @@ const ExposeForm = () => {
   return (
     <ExposeFormContainer>
       <FormTitle>Name and Shame</FormTitle>
-      <Reminder>Friendly Reminder: They screwed up but you are way classier than they ever will be
+      <Reminder>PSA: They screwed up but we are way classier than they ever will be
         <br/>No need to lower ourselves to the same level as garbage 💅</Reminder>
       <ExposeFormContainer>
-        <FieldLabel>What do you call that trash?</FieldLabel>
+        <FieldLabel>What did you call that trash?</FieldLabel>
         <TextAreaInput rows={1} placeholder="AKA what do normal people know them as?" />
-        <FieldLabel>Any easy identifiers?</FieldLabel>
-        <TextAreaInput rows={1} placeholder="Instagram, TikTok, Facebook, Twitter, etc." />
+        <FieldLabel>Any easy identifiers or characteristics?</FieldLabel>
+        <TextAreaInput rows={1} placeholder="Social media (Instagram, TikTok, Twitter, etc.) or physical characteristics" />
         <FieldLabel>Where was the shit located?</FieldLabel>
         <TextAreaInput rows={1} placeholder="Country/city/area where people are likely to meet them" />
         <FieldLabel>What in the bloody audacity did they do?</FieldLabel>
