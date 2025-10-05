@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/the-dating-cheatsheet/static/js/main.feda0821.js",
+    "main.js": "/the-dating-cheatsheet/static/js/main.3ed4e2ed.js",
     "static/js/453.619f979b.chunk.js": "/the-dating-cheatsheet/static/js/453.619f979b.chunk.js",
     "index.html": "/the-dating-cheatsheet/index.html",
-    "main.feda0821.js.map": "/the-dating-cheatsheet/static/js/main.feda0821.js.map",
+    "main.3ed4e2ed.js.map": "/the-dating-cheatsheet/static/js/main.3ed4e2ed.js.map",
     "453.619f979b.chunk.js.map": "/the-dating-cheatsheet/static/js/453.619f979b.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.feda0821.js"
+    "static/js/main.3ed4e2ed.js"
   ]
 }
