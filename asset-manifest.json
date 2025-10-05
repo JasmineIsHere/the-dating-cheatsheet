@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/TheDatingCheatsheet/static/js/main.b450298a.js",
-    "static/js/453.619f979b.chunk.js": "/TheDatingCheatsheet/static/js/453.619f979b.chunk.js",
-    "index.html": "/TheDatingCheatsheet/index.html",
-    "main.b450298a.js.map": "/TheDatingCheatsheet/static/js/main.b450298a.js.map",
-    "453.619f979b.chunk.js.map": "/TheDatingCheatsheet/static/js/453.619f979b.chunk.js.map"
+    "main.js": "/the-dating-cheatsheet/static/js/main.73d55d94.js",
+    "static/js/453.619f979b.chunk.js": "/the-dating-cheatsheet/static/js/453.619f979b.chunk.js",
+    "index.html": "/the-dating-cheatsheet/index.html",
+    "main.73d55d94.js.map": "/the-dating-cheatsheet/static/js/main.73d55d94.js.map",
+    "453.619f979b.chunk.js.map": "/the-dating-cheatsheet/static/js/453.619f979b.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.b450298a.js"
+    "static/js/main.73d55d94.js"
   ]
 }
