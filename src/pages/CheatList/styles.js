@@ -49,6 +49,7 @@ export const CheatItem = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin-top: 1rem;
 `;
 
 export const CheaterName = styled.div`
@@ -64,7 +65,7 @@ export const CheaterDetails = styled.div`
 
 export const DiveInButton = styled.button`
     background-color: ${softLavenderTheme.shade};
-    color: white;
+    color: ${softLavenderTheme.primary};
     border: none;
     border-radius: 5px;
     padding: 0.5rem 1rem;
@@ -74,5 +75,19 @@ export const DiveInButton = styled.button`
 
     &:hover {
         background-color: ${softLavenderTheme.secondary};
+        color: ${softLavenderTheme.background};
     }
+`;
+
+export const ExpandableSection = styled.div`
+    width: 100%;
+    background-color: ${softLavenderTheme.highlight};
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    padding: 0 1rem;
+    text-align: left;
+
+    
+    transition: max-height 0.3s ease-out;
 `;
