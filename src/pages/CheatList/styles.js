@@ -58,12 +58,7 @@ export const CheaterName = styled.div`
     margin-bottom: 0.5rem;
 `;
 
-export const CheaterDetails = styled.div`
-    font-size: 1rem;
-    color: #555;
-`;
-
-export const DiveInButton = styled.button`
+export const SusButton = styled.button`
     background-color: ${softLavenderTheme.shade};
     color: ${softLavenderTheme.primary};
     border: none;

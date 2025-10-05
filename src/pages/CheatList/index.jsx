@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { CheatItem, CheatListContainer, CheatListPageContainer, CheaterDetails, CheaterName, DiveInButton, ExpandableSection } from './styles'
+import { CheatItem, CheatListContainer, CheatListPageContainer, CheaterName, SusButton, ExpandableSection } from './styles'
 import { MainHeaderText, Paragraph, SubHeaderText } from '../../components/Common/styles'
 import { cheatersData } from '../../utils/staticData'
 
@@ -25,17 +25,15 @@ const CheatList = () => {
 const Cheater = ({ name, location, traits }) => {
     const [isExpanded, setIsExpanded] = useState(false);
 
-    console.log(isExpanded);
-
     const toggleExpand = () => {
         setIsExpanded(!isExpanded);
-        console.log(isExpanded);
     }
+
     return (
         <>
             <CheatItem>
                 <CheaterName>{name}</CheaterName>
-                <DiveInButton onClick={toggleExpand}>Sus</DiveInButton>
+                <SusButton onClick={toggleExpand}>Sus</SusButton>
             </CheatItem>
             <ExpandableSection style={{ maxHeight: isExpanded ? '200px' : '0', overflow: 'hidden' }}>
                 <Paragraph>
