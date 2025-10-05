@@ -52,6 +52,32 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+#### `npm run deploy`
+
+This app is currently deployed with gh-pages and live at https://jasmineishere.github.io/the-dating-cheatsheet/
+
+### Getting Started with gh-pages
+
+1. Install the gh-pages package: In your project's root, run npm install gh-pages --save-dev.
+
+2. Edit your package.json file:
+
+    - Add a homepage property with your repository URL. For a project site, the format is "https://your-username.github.io/your-repo-name". For a user site, use "https://your-username.github.io".
+    - Add predeploy and deploy scripts to the scripts section:
+    ```json
+    "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+    }
+    ```
+
+3. Run the deploy command: Run `npm run deploy` in your terminal. This will build your app and push it to a new gh-pages branch on your repository.
+
+4. Configure GitHub Pages:
+    - In your GitHub repository, go to Settings > Pages.
+    - Under "Source," choose the gh-pages branch and click Save.
+    - Your site will be live at the URL specified in your homepage property.
+
 ### Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
