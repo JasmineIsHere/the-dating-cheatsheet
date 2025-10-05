@@ -23,7 +23,26 @@ export const GettingStartedButton = styled.button`
     transition: background-color 0.3s ease;
     
     &:hover {
-        background-color: ${softLavenderTheme.secondary};
+        background-color: ${softLavenderTheme.primary};
+        color: ${softLavenderTheme.background};
     }
   }
+`;
+
+export const SubButton = styled.button`
+    background-color: transparent;
+    color: ${softLavenderTheme.primary};
+    border: 2px solid ${softLavenderTheme.shade};
+    border-radius: 5px;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+    &:hover {
+        background-color: ${softLavenderTheme.primary};
+        color: ${softLavenderTheme.background};
+        border: 2px solid ${softLavenderTheme.primary};
+    }
 `;
