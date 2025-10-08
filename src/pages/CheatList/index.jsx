@@ -6,6 +6,13 @@ import { cheatersData } from '../../utils/staticData'
 const CheatList = () => {
     return (
         <CheatListPageContainer>
+            <span>Note that this page is still work in progress...</span>
+            <span>The developer may work on this tonight
+                <br/>...or tmr
+                <br/><br/>...or maybe next month</span>
+            <span><br/><br/><br/>Or maybe never...who knows</span>
+            <br></br>
+            <br></br>
             <MainHeaderText>The Cheat List</MainHeaderText>
             <SubHeaderText>See someone familiar here? They might very well be the same person - or they may not!
             </SubHeaderText>
